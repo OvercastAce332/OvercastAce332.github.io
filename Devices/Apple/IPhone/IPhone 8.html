@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/x-icon" href="F:\s4ict\htmlproject\hopefully my last folder\k.ico" />
+<link rel="stylesheet" href="F:\s4ict\htmlproject\hopefully my last folder\style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+ <ul>
+  <li><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open here</span><li>
+  <li style="float:right"><a href="f:\s4ict\htmlproject\hopefully my last folder\NOTHINGTOSEEHERE.html">Krisjanis Ulmanis</a></li>
+ </ul>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+  <a href="f:\s4ict\htmlproject\hopefully my last folder\homepage.html">Home</a>
+  <a href="f:\s4ict\htmlproject\hopefully my last folder\Devices.html">Devices</a>
+  <a href="f:\s4ict\htmlproject\hopefully my last folder\Services.html">Services</a>
+  <a href="f:\s4ict\htmlproject\hopefully my last folder\contact.html">Contact</a>
+  <a href="f:\s4ict\htmlproject\hopefully my last folder\About.html">About</a>
+</div>
+
+<div id="myservises">
+  <h1 class="heading1">IPhone 8</h1>
+ <dl class="lists">
+  <dt>repairs</dt>
+   <dd>well its still less then 1 year old so you probably have apple care/some type of warranty.</dt>
+ </dl>
+</div>
+
+ <img class="phone" src="F:\s4ict\htmlproject\hopefully my last folder\pictures of phones\apple\iphones\iphone 8.png"></img>
+
+<div id="copy">
+ Copyright &copy; Krišjānis Ulmanis
+</div>
+
+
+
+  <script>
+   function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+   }
+
+   function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+   }
+  </script>
+
+</body>
+</html>

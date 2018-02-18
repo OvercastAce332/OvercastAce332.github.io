@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="shortcut icon" type="image/x-icon" href="k.ico" />
+   <link rel="stylesheet" href="style.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+ <body>
+   <ul>
+    <li><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open here</span><li>
+    <li style="float:right"><a href="#name">Krisjanis Ulmanis</a></li>
+   </ul>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\homepage.html">Home</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\Devices.html">Devices</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\Services.html">Services</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\contact.html">Contact</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\About.html">About</a>
+  </div>
+
+  <div id="main">
+    <h1 class="heading1">list of Services.</h1>
+   <dl>
+    <dt>Repair</dt>
+     <dd>- I can repair loads of mobile devices as long as those devices ont require board level repair , but if its something as simple as changing a display i will be hapily , my only rule is that the person whose phone im repairing orders the nescacery parts an hans them over to me. </dd>
+    <dt>Make stuff</dt>
+     <dd>- I ont have a specific list of thing that i make but if you want something verry specific you can message me an we will discuss it.</dd>
+    <dt>root/jailbreak</dt>
+     <dd>if someone is just starting to experiment with hacking their phone they wont know what their doing an will be super stressed out , so i would take the customers phone , take it home an make the modificatios nescacery. </dd>
+   </dl>
+  </div>
+
+  <div id="copy">
+   Copyright &copy; Krišjānis Ulmanis
+  </div>
+
+
+
+    <script>
+     function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+     }
+
+
+      function cloveNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+     }
+    </script>
+ </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <link rel="stylesheet" href="style.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+   <div id="google_translate_element"></div>
+   <ul>
+    <li><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open here</span><li>
+    <li style="float:right"><a href="">Krisjanis Ulmanis</a></li>
+   </ul>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\homepage.html">Home</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\Devices.html">Devices</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\Services.html">Services</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\contact.html">Contact</a>
+    <a href="f:\s4ict\htmlproject\hopefully my last folder\About.html">About</a>
+  </div>
+
+  <div id="main">
+    <h1 class="heading1">places you can contact me</h1>
+    <dl>
+     <dt><p href="https://www.facebook.com/47572a" class="fa fa-facebook"></p></dt>
+    <dd><p href="https://twitter.com/KrijnisUlmanis" class="fa fa-twitter"></p></dd>
+    <dt><p href="https://www.instagram.com/krisjanis.ulmanis/?hl=en" class="fa fa-instagram"></p></dt>
+    <dd><p href="https://www.reddit.com/user/overcastace332" class="fa fa-reddit"></p></dd>
+  </dl>
+  <form action="mailto:vabolmilis@gmail.com" method="post">
+  <table width="640" cellspacing="2">
+    <tr>
+      <td>Name:</td>
+      <td><input type="text" name="Name" value="" size="30"/></td>
+    </tr>
+    <tr>
+      <td>Email:</td>
+      <td><input type="text" name="email" value="" size="30"/></td>
+    </tr>
+    <tr>
+      <td valign="top">Message:</td>
+      <td><textarea rows="5" cols="40"></textarea></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" value="submit" name="submit"</td>
+    </tr>
+  </table>
+</form>
+  </div>
+
+<p class="Contact">(i am least likely to respond on Instagram)</p>
+
+  <div id="copy">
+   Copyright &copy; Krišjānis Ulmanis
+ </div>
+
+
+
+    <script>
+     function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+     }
+
+
+
+     function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+     }
+    </script>
+    <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ </body>
+</html>

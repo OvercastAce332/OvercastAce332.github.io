@@ -20,19 +20,21 @@
     <a href="About.html">About</a>
   </div>
 
-  <div id="main">
-    <h1 class="heading1">list of Services.</h1>
-   <dl>
-    <dt>Repair</dt>
-     <dd>- I can repair loads of mobile devices as long as those devices ont require board level repair , but if its something as simple as changing a display i will be hapily , my only rule is that the person whose phone im repairing orders the nescacery parts an hans them over to me. </dd>
-    <dt>Make stuff</dt>
-     <dd>- I ont have a specific list of thing that i make but if you want something verry specific you can message me an we will discuss it.</dd>
-    <dt>root/jailbreak</dt>
-     <dd>if someone is just starting to experiment with hacking their phone they wont know what their doing an will be super stressed out , so i would take the customers phone , take it home an make the modificatios nescacery. </dd>
-   </dl>
+  <button class="accordion">Repair</button>
+  <div class="panel">
+    <p>I can repair broken displays, bad batteries, generally anything removable (I can attempt to do some soldering but that would cost extra and there would be a lower chance of me fixing the original issue). </p>
   </div>
-  
-   <div id="google_translate_element"></div>
+
+  <button class="accordion">Make stuff</button>
+  <div class="panel">
+    <p>If you need anything specific made you can contact me and we will talk it over.</p>
+  </div>
+
+  <button class="accordion">root/jailbreak</button>
+  <div class="panel">
+    <p>It can be scary modifying your phone, I can go through it with you to ensure that everything goes smoothly.</p>
+  </div>
+
 
   <div id="copy">
    Copyright &copy; Krišjānis Ulmanis
@@ -51,20 +53,21 @@
       document.getElementById("mySidenav").style.width = "0";
       document.getElementById("main").style.marginLeft = "0";
      }
-    </script>
-  
-   <script type="text/javascript">
 
-function googleTranslateElementInit() {
+     var acc = document.getElementsByClassName("accordion");
+var i;
 
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
 }
-
-</script>
-
-
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </script>
  </body>
 </html>

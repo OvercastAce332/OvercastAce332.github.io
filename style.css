@@ -321,7 +321,7 @@ body, html {
 .modal-content {
     position: fixed;
     bottom: 0;
-    background-color: #fefefe;
+    background-color: Black;
     width: 100%;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
@@ -346,15 +346,15 @@ body, html {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
+    background-color: #4d0000;
+    color: Black;
 }
 
 .modal-body {padding: 2px 16px;}
 
 .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #4d0000;
     color: white;
 }
 
@@ -388,7 +388,7 @@ body, html {
 
 
 .accordion {
-    background-color: #eee;
+    background-color: #0d0d0d;
     color: #000;
     cursor: pointer;
     padding: 18px;
@@ -401,7 +401,7 @@ body, html {
 }
 
 .active, .accordion:hover {
-    background-color: #0d0d0d;
+    background-color: grey;
 }
 
 .accordion:after {
@@ -422,4 +422,17 @@ body, html {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+button.accordion{
+  color: white;
+}
+
+p.Black{
+  color: white;
+  direction: rtl;
+}
+
+h1.Black{
+  color: white;
 }

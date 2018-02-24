@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="shortcut icon" type="image/x-icon" href="k.ico" />
+   <link rel="stylesheet" href="style.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+ <body>
+   <ul>
+    <li><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open here</span><li>
+    <li style="float:right"><a href="#name">Krisjanis Ulmanis</a></li>
+   </ul>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="Devices.html">Devices</a>
+    <a href="Services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="About.html">About</a>
+  </div>
+
+<img class="me" src="KrisjanisUlmanis.png" alt="Krisjanis Ulmanis">
+
+<button id="myButton" onclick="typeWriter()">About Me</button>
+
+
+<p id="AboutMeText"></p>
+
+
+<div id="copy">
+ Copyright &copy; Krišjānis Ulmanis
+</div>
+
+
+
+    <script>
+     function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+     }
+
+     function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+     }
+
+     var i = 0;
+var txt = 'Hello! I am an 14 year old boy that loves making/fixing stuff.  ';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("AboutMeText").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+    </script>
+ </body>
+</html>

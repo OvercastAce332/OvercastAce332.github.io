@@ -436,3 +436,12 @@ p.Black{
 h1.Black{
   color: white;
 }
+
+button.button{
+  background-color: #4d0000;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

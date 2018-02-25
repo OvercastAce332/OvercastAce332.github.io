@@ -53,7 +53,7 @@ p{
 }
 
 p.paragraph{
-  direction: rtl;
+  : rtl;
 }
 
 p.contact{
@@ -64,7 +64,7 @@ p.contact{
 }
 
 h1.heading1{
-  direction: rtl;
+  : rtl;
 }
 
   ul {
@@ -105,7 +105,7 @@ a:hover, a:active {
 }
 
 p.Contact{
-  direction: rtl;
+  : rtl;
 }
 
 
@@ -190,11 +190,11 @@ button#myButton {
 }
 
 ol.myservices{
- direction: rtl;
+ : rtl;
 }
 
 dl.lists{
- direction: rtl;
+ : rtl;
 }
 
 img.phone{
@@ -205,7 +205,7 @@ img.phone{
 * {box-sizing: border-box}
 
 body, html {
-    height: 110%;
+    height: 130%;
     margin: 0;
 }
 
@@ -258,7 +258,7 @@ body, html {
 .fa-facebook {
   background: #3B5998;
   color: white;
-  direction: rtl;
+  : rtl;
   float: right;
   clear: both;
 }
@@ -266,19 +266,19 @@ body, html {
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  direction: rtl;
+  : rtl;
   float: right;
 }
 .fa-instagram {
   background: #125688;
   color: white;
-  direction: rtl;
+  : rtl;
   float: right;
 }
 .fa-reddit {
   background: #ff5700;
   color: white;
-  direction: rtl;
+  : rtl;
   float: right;
 }
 
@@ -292,7 +292,7 @@ body, html {
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
-    direction: rtl;
+    : rtl;
 }
 
 .tablink2:hover {
@@ -382,7 +382,7 @@ body, html {
 .fa-google {
   background: #dd4b39;
   color: white;
-  direction: rtl;
+  : rtl;
   float: right;
 }
 
@@ -430,7 +430,7 @@ button.accordion{
 
 p.Black{
   color: white;
-  direction: rtl;
+  : rtl;
 }
 
 h1.Black{

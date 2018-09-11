@@ -3,3 +3,7 @@ body{
  background-color: #0d0d0d;
  color: #f2f2f2;
 }
+
+table.normal{
+  padding-left: 600px
+}
